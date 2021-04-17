@@ -37,7 +37,7 @@ namespace Minesweeper
             GetHiddenFields();
             if (_map[column, row].isMine)
             {
-                RevealMap();
+                RevealMines();
                 return false;
             }
             if (_map[column, row].surroundingMines == 0)
@@ -158,6 +158,14 @@ namespace Minesweeper
             for (int row = 0; row < _totalRows; row++)
                 for (int column = 0; column < _totalColumns; column++)
                     _map[column, row].isVisible = true;
+        }
+
+        private void RevealMines()
+        {
+            for (int row = 0; row < _totalRows; row++)
+                for (int column = 0; column < _totalColumns; column++)
+                    if (_map[column, row].isMine)
+                        _map[column, row].isVisible = true;
         }
 
         /// <summary>
