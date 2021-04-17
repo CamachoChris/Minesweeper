@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Minesweeper"
         mc:Ignorable="d"
-        Title="You did highscore!" Icon="bomb.ico" Height="150" Width="300" Background="Gold" WindowStartupLocation="CenterOwner">
+        Title="You did highscore!" Icon="bomb.ico" Height="150" Width="300" Background="Gold" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
     <StackPanel>        
         <TextBlock x:Name="highscoreTitle" HorizontalAlignment="Center" Text="Congratulations" FontSize="20" Margin="3" TextWrapping="NoWrap"/>
         <TextBlock x:Name="highscoreText" HorizontalAlignment="Center" Text="You made it into the highscore. Please enter your name." Margin="5" TextWrapping="NoWrap"/>

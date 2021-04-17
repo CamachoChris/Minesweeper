@@ -110,6 +110,7 @@ namespace ViewMinesweeper
             textBoxColumns.Text = "9";
             textBoxRows.Text = "9";
             textBoxMines.Text = "10";
+            EndInititialization();
             InitializePlayfield();
         }
 
@@ -118,6 +119,7 @@ namespace ViewMinesweeper
             textBoxColumns.Text = "16";
             textBoxRows.Text = "16";
             textBoxMines.Text = "40";
+            EndInititialization();
             InitializePlayfield();
         }
 
@@ -126,6 +128,7 @@ namespace ViewMinesweeper
             textBoxColumns.Text = "30";
             textBoxRows.Text = "16";
             textBoxMines.Text = "99";
+            EndInititialization();
             InitializePlayfield();
         }
 
