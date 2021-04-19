@@ -43,7 +43,7 @@
 
                     <MenuItem x:Name="highscores" Header="_Highscores" Click="Highscores_Click"/>
                     <!--MenuItem x:Name="options" Header="_Options" Click="Options_Click"/-->
-                    <MenuItem Header="_Help">
+                    <MenuItem Header="H_elp">
                         <!--MenuItem Header="_Manual" x:Name="manual" Click="Manual_Click"/-->
                         <MenuItem Header="_About" x:Name="about" Click="About_Click"/>
                     </MenuItem>
